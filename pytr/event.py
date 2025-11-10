@@ -128,7 +128,7 @@ subtitle_event_type_mapping = {
     "Verkaufsorder": ConditionalEventType.TRADE_INVOICE,
     "Sparplan ausgeführt": ConditionalEventType.TRADE_INVOICE,
     "Tilgung": ConditionalEventType.TRADE_INVOICE,
-    "Ausschüttung / Ausschüttungsgleicher Ertrag": PPEventType.FEES,
+    "Ausschüttung / Ausschüttungsgleicher Ertrag": PPEventType.TAXES,
 }
 
 events_known_ignored = [
