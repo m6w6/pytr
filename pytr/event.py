@@ -120,6 +120,17 @@ subtitle_event_type_mapping = {
     # Saveback
     "Saveback": ConditionalEventType.SAVEBACK,
     # Trade invoices
+    "Limit-Buy-Order": ConditionalEventType.TRADE_INVOICE,
+    "Limit-Sell-Order": ConditionalEventType.TRADE_INVOICE,
+    "Stop-Buy-Order": ConditionalEventType.TRADE_INVOICE,
+    "Stop-Sell-Order": ConditionalEventType.TRADE_INVOICE,
+    "Kauforder": ConditionalEventType.TRADE_INVOICE,
+    "Verkaufsorder": ConditionalEventType.TRADE_INVOICE,
+    "Sparplan ausgeführt": ConditionalEventType.TRADE_INVOICE,
+    "Tilgung": ConditionalEventType.TRADE_INVOICE,
+ }
+
+ events_known_ignored = [
     "Limit-Sell-Order": ConditionalEventType.TRADE_INVOICE,
     "Verkaufsorder": ConditionalEventType.TRADE_INVOICE,
     "Sparplan ausgeführt": ConditionalEventType.TRADE_INVOICE,
