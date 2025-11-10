@@ -130,7 +130,7 @@ subtitle_event_type_mapping = {
     "Tilgung": ConditionalEventType.TRADE_INVOICE,
  }
 
- events_known_ignored = [
+events_known_ignored = [
     "Limit-Sell-Order": ConditionalEventType.TRADE_INVOICE,
     "Verkaufsorder": ConditionalEventType.TRADE_INVOICE,
     "Sparplan ausgeführt": ConditionalEventType.TRADE_INVOICE,
